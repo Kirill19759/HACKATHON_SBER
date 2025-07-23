@@ -51,4 +51,8 @@
 
 2. **Производительность:**
    - Время предсказания ≤ 3 секунд
-   - 
+
+Полностью задание можно прочитать [отсюда](https://cloud.mail.ru/public/PXoc/hDmWMRLe6) или скачать в виде [файла](https://lms-cdn.skillfactory.ru/assets/courseware/v1/d71c2fe9706361f6010e7d05243fb4a2/asset-v1:skillfactory+TGUDS-2sem+2025+type@asset+block/%D0%A3%D1%87%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F_%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7_%D1%81%D0%B0%D0%B9%D1%82%D0%B0.docx).
+
+Данные для выполнения практического задания можно скачать [отсюда]([https://drive.google.com/drive/folders/1rA4o6KHH-M2KMvBLHp5DZ5gioF2q7hZw](https://cloud.mail.ru/public/PXoc/hDmWMRLe6)).
+
