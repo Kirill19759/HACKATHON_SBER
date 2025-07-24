@@ -1,6 +1,7 @@
-Анализ данных 'СберАвтоподписка'
+Анализ изначальных данных 'СберАвтоподписка'
 
 Даны 2 таблицы: ga_hits.csv и ga_sessions.csv
+
 1. Загрузка и объединение таблиц по sessions_id (около 16 млн. строк, 28 столбцов)
 2. Ознакомление с предоставленными датасетами и описание представленных атрибутов;
 3. Проведение базовой очистки (дубликаты, пустые значения, типизация данных)
@@ -45,3 +46,41 @@
 - event_action: Действие (submit, play)
 - event_label: Дополнительная метка
 - event_value: Числовое значение (например, сумма)
+
+Пропущенные значения (NaN) в каждом столбце:
+session_id                         0
+client_id                          0
+visit_date                         0
+visit_time                         0
+visit_number                       0
+utm_source                       721
+utm_medium                         0
+utm_campaign                 2223189
+utm_adcontent                2863896
+utm_keyword                  9266136
+device_category                    0
+device_os                    9214556
+device_brand                 3965857
+device_model                15689432
+device_screen_resolution           0
+device_browser                     0
+geo_country                        0
+geo_city                           0
+hit_date                      127776
+hit_time                     9287979
+hit_number                    127776
+hit_type                      127776
+hit_referer                  6363274
+hit_page_path                 127776
+event_category                127776
+event_action                  127776
+event_label                  3855458
+event_value                 15812995
+dtype: int64
+
+Произведена замена:
+Категориальные колонки на 'unknown'
+Числовые колонки на 0
+Для hit_type - unknown_action
+Для hit_page_path (URL страницы) - /unknown_path
+Для рекламных меток - тип трафика
